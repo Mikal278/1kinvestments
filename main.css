@@ -7,3 +7,11 @@ img {
 	width: 150px;
 	height: 75%;
 }
+
+#mainPhoto {
+justify-content: right;
+}
+
+#mainBody {
+justify-content: left;
+}
