@@ -6,6 +6,8 @@ img {
 	padding: 5px;
 	width: 150px;
 	height: 75%;
+	max-width: 100%;
+ 	max-height:100%;
 }
 
 #mainPhoto {
@@ -14,4 +16,15 @@ justify-content: right;
 
 #mainBody {
 justify-content: left;
+}
+
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+.text {
+  font-size: 70px;
 }
