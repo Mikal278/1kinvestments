@@ -8,12 +8,12 @@ img {
 }
 
 .container {
- display: grid;
- align-items: center; 
- grid-template-columns: 1fr 1fr 1fr;
- column-gap: 5px;
+ 	display: flex;
+ 	align-items: center; 
+ 	justify-content: center;
 }
 
 .text {
-  font-size: 70px;
+	font-size: 35px;
+	padding-right: 35px;
 }
