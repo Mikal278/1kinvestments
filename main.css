@@ -17,3 +17,21 @@ img {
 	font-size: 20px;
 	padding-right: 20px;
 }
+
+#headerLarge
+{
+	font-size: 20px;
+	justify-content: center;
+}
+
+#headerTiny
+{
+	font-size: 10px;
+	justify-content: center;
+}
+
+#footerLarge
+{
+	font-size: 20px;
+	justify-content: center;
+}
