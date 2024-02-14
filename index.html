@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <script src="jquery.js"></script>
-        <script>
-            $(function(){
-                $("#includedContent").load("header.html");
-            });
-        </script>
+  <title>Your Website Title</title>
+  <script src="jquery.js"></script>
 </head>
-        <body>
-            <div id="includedContent"></div>
-        </body>
-    <main>
-        <section>
-              <div class="container">  
-              <div class="text">
-                <h2>Our Offerings</h2>
-                <ul>
-                    <a href="investments"><li>Investment Guides</li></a>
-                    <li>Stock Market Analysis</li>
-                    <li>Property Search</li>
-                    <li>Property Management</li>
-                    <li>Portfolio Tracker</li>
-                </ul>
-                </div>
-                <div class="image"> 
-                    <img src="stocks.png" alt="Header Image">
-                </div>    
-              </div>
-        </section>
-        <section>
-            <h2>About Us</h2>
-            <p></p>
-        </section>
-        <section>
-            <h2>Testimonials</h2>
-        </section>
-        <section>
-            <h2>Get in Touch</h2>
-            <p>Ready to conquer your financial demons? Contact us today to discuss your investment aspirations.</p>
-        </section>
-    </main>
-<?php include "./footer.html" ?>
+<body>
+  <div id="header"></div>
+  <main>
+    <section>
+      <div class="container">
+        <div class="text">
+          <h2>Our Offerings</h2>
+          <ul>
+            <li><a href="investments">Investment Guides</a></li>
+            <li>Stock Market Analysis</li>
+            <li>Property Search</li>
+            <li>Property Management</li>
+            <li>Portfolio Tracker</li>
+          </ul>
+        </div>
+        <div class="image">
+          <img src="stocks.png" alt="Header Image">
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>About Us</h2>
+      <p>Fill in this section with information about your company.</p>
+    </section>
+    <section>
+      <h2>Testimonials</h2>
+    </section>
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Ready to conquer your financial demons? Contact us today to discuss your investment aspirations.</p>
+    </section>
+  </main>
+  <div id="footer"></div>
+
+  <script>
+    $(function() {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
 </body>
 </html>
